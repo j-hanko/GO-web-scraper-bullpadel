@@ -10,6 +10,7 @@ import (
 )
 
 type Racket struct {
+	Brand      string `json:"brand"`
 	Model      string `json:"model"`
 	Price      string `json:"price"`
 	ImageUrl   string `json:"imageUrl"`
@@ -17,8 +18,6 @@ type Racket struct {
 	Weight     string `json:"weight"`
 	Shape      string `json:"shape"`
 }
-
-var items []Racket
 
 func ScrapRacketPage(url string) (Weight string, Shape string) {
 	regexWeight := regexp.MustCompile(`(?i)\bweight\s*:\s*([0-9]{2,4}\s*(?:[-–]\s*[0-9]{2,4})?\s*g)\b`)
@@ -45,17 +44,20 @@ func ScrapRacketPage(url string) (Weight string, Shape string) {
 }
 
 func ScrapRacket(url string) {
+	var items []Racket
 	c := colly.NewCollector(colly.AllowedDomains("www.bullpadel.com"))
 
 	series := strings.Split(url, "/")[4]
 
 	c.OnHTML("div.left-column div[class='thumbnail-container']", func(e *colly.HTMLElement) {
 		item := Racket{
+			Brand:      "BullPadel",
 			Model:      e.ChildText("h3"),
 			Price:      e.ChildText("span[itemprop='price']"),
 			ImageUrl:   e.ChildAttr("img", "src"),
 			RacketPage: e.ChildAttr("a", "href"),
 		}
+		item.Model = strings.Replace(item.Model, "BULLPADEL", "", 1)
 		item.Model = strings.Replace(item.Model, "RACKET", "", 1)
 		item.Model = strings.Replace(item.Model, "PACK", "", 1)
 		item.Model = strings.Replace(item.Model, " ", "", 1)
