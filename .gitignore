@@ -1,0 +1,6 @@
+.idea/
+*.iml
+.env
+bin/
+*.exe
+BullPadelRackets.json
