@@ -3,27 +3,37 @@ package main
 import (
 	"encoding/json"
 	"os"
+	"strings"
 
 	"github.com/gocolly/colly"
 )
 
 type Racket struct {
-	Model    string `json:"model"`
-	Price    string `json:"price"`
-	ImageUrl string `json:"imageUrl"`
+	Model      string `json:"model"`
+	Price      string `json:"price"`
+	ImageUrl   string `json:"imageUrl"`
+	RacketPage string `json:"racketPage"`
+	Weight     string `json:"weight"`
+	Shape      string `json:"shape"`
 }
 
-func main() {
+var items []Racket
+
+func Scrap(url string) {
 	c := colly.NewCollector(colly.AllowedDomains("www.bullpadel.com"))
 
-	var items []Racket
+	series := strings.Split(url, "/")[4]
 
 	c.OnHTML("div.left-column div[class='thumbnail-container']", func(e *colly.HTMLElement) {
 		item := Racket{
-			Model:    e.ChildText("h3"),
-			Price:    e.ChildText("span[itemprop='price']"),
-			ImageUrl: e.ChildAttr("img", "src"),
+			Model:      e.ChildText("h3"),
+			Price:      e.ChildText("span[itemprop='price']"),
+			ImageUrl:   e.ChildAttr("img", "src"),
+			RacketPage: e.ChildAttr("a", "href"),
 		}
+		item.Model = strings.Replace(item.Model, "RACKET", "", 1)
+		item.Model = strings.Replace(item.Model, "PACK", "", 1)
+		item.Model = strings.Replace(item.Model, " ", "", 1)
 		items = append(items, item)
 	})
 
@@ -32,11 +42,16 @@ func main() {
 		c.Visit(nextPage)
 	})
 
-	c.Visit("https://www.bullpadel.com/gb/39-proline")
+	c.Visit(url)
 
 	content, err := json.Marshal(items)
 	if err != nil {
 		panic(err)
 	}
-	os.WriteFile("BullPadelRackets.json", content, 0644)
+	os.WriteFile("BullPadelRackets"+series+".json", content, 0644)
+}
+
+func main() {
+	Scrap("https://www.bullpadel.com/gb/39-proline")
+	Scrap("https://www.bullpadel.com/gb/234-ltd-collection")
 }
