@@ -121,7 +121,7 @@ func ScrapeRacket(url string) {
 		fmt.Println("error: ", err)
 		return
 	}
-	if err := os.WriteFile("BullPadelRackets"+series+".json", content, 0644); err != nil {
+	if err := os.WriteFile(brand+"Rackets"+series+".json", content, 0644); err != nil {
 		fmt.Println("error: ", err)
 	}
 }
