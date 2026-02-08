@@ -25,6 +25,7 @@ type Racket struct {
 var regexWeight = regexp.MustCompile(`(?im)\b(?:approx(?:imate)?\.?\s*)?weight\s*(?:[:·-])\s*([0-9]{2,4}(?:\s*[-–]\s*[0-9]{2,4})?\s*(?:g|grs?|grams?))\.?`)
 var regexShape = regexp.MustCompile(`(?im)\b(?:shape|form)\s*(?:[:·-])\s*(hybrid|diamond|round|geometric|teardrop|tear\s*drop)\b`)
 var regexMaterial = regexp.MustCompile(`(?im)[•\s]*\b(?:comp\.?\s*exterior(?:\s*composition)?|exterior\s*comp\.?(?:osition)?|exterior\s*composition|outer\s*comp\.?(?:osition)?|outer\s*composition|outer\s*shell)\s*(?:[:·-])\s*([^•\r\n]+?)(?:\.\s*-\s*|•|\r?\n|$)`)
+var brand = "BullPadel"
 
 func ScrapeRacketPage(url string) (Weight string, Shape string, Material string) {
 
@@ -71,7 +72,7 @@ func ScrapeRacket(url string) {
 
 	c.OnHTML("div.left-column div[class='thumbnail-container']", func(e *colly.HTMLElement) {
 		item := Racket{
-			Brand:      "BullPadel",
+			Brand:      brand,
 			Model:      e.ChildText("h3"),
 			Price:      e.ChildText("span[itemprop='price']"),
 			ImageUrl:   e.ChildAttr("img", "src"),
@@ -80,7 +81,8 @@ func ScrapeRacket(url string) {
 		if strings.Contains(item.Model, "PACK") {
 			return
 		}
-		item.Model = strings.Replace(item.Model, "BULLPADEL", "", 1)
+		brand = strings.ToUpper(brand)
+		item.Model = strings.Replace(item.Model, brand, "", 1)
 		item.Model = strings.Replace(item.Model, "RACKET", "", 1)
 		item.Model = strings.Replace(item.Model, " ", "", 1)
 
@@ -125,6 +127,7 @@ func ScrapeRacket(url string) {
 }
 
 func main() {
-	ScrapeRacket("https://www.bullpadel.com/gb/39-proline")
-	ScrapeRacket("https://www.bullpadel.com/gb/234-ltd-collection")
+	//ScrapeRacket("https://www.bullpadel.com/gb/39-proline")
+	//ScrapeRacket("https://www.bullpadel.com/gb/234-ltd-collection")
+	fmt.Println("Done")
 }
