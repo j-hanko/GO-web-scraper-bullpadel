@@ -1,0 +1,57 @@
+[
+  {
+    "brand": "BULLPADEL",
+    "model": " HACK ADVANCE",
+    "price": "€124.99",
+    "imageUrl": "https://www.bullpadel.com/18924-home_default/racket-bullpadel-hack-advance.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/performance/5695-racket-bullpadel-hack-advance.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Performance"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " VERTEX ADVANCE",
+    "price": "€139.99",
+    "imageUrl": "https://www.bullpadel.com/19006-home_default/racket-bullpadel-vertex-advance.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/performance/5694-racket-bullpadel-vertex-advance.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Performance"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " BP10 EVO 25",
+    "price": "€89.99",
+    "imageUrl": "https://www.bullpadel.com/16490-home_default/racket-bullpadel-bp10-evo-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/performance/4950-racket-bullpadel-bp10-evo-25.html",
+    "weight": "360-370g",
+    "shape": "Round",
+    "material": "",
+    "series": "Performance"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " FLOW LIGHT 25",
+    "price": "€94.99",
+    "imageUrl": "https://www.bullpadel.com/15449-home_default/racket-bullpadel-flow-light-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/performance/4949-racket-bullpadel-flow-light-25.html",
+    "weight": "350-360g",
+    "shape": "round",
+    "material": "",
+    "series": "Performance"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " K2 POWER 25",
+    "price": "€79.99",
+    "imageUrl": "https://www.bullpadel.com/16506-home_default/racket-bullpadel-k2-power-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/performance/4921-racket-bullpadel-k2-power-25.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Performance"
+  }
+]

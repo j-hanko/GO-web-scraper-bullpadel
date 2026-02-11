@@ -3,7 +3,7 @@
 A simple Go scraper that collects BullPadel padel racket data from bullpadel.com and outputs it to JSON files.
 
 ## What it does
-- Visits a category/series page (e.g. Proline, LTD Collection)
+- Visits a category/series page (e.g. Proline, LTD Collection, ...)
 - Extracts for each racket:
     - `brand`, `model`, `price`, `imageUrl`, `racketPage`
 - Opens each racket detail page and parses:

@@ -1,0 +1,68 @@
+[
+  {
+    "brand": "BULLPADEL",
+    "model": " VERTEX JR GIRL 26",
+    "price": "€89.99",
+    "imageUrl": "https://www.bullpadel.com/18993-home_default/racket-bullpadel-vertex-jr-girl-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/junior/5701-racket-bullpadel-vertex-jr-girl-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Junior"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " VERTEX JR BOY 26",
+    "price": "€89.99",
+    "imageUrl": "https://www.bullpadel.com/18990-home_default/racket-bullpadel-vertex-jr-boy-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/junior/5700-racket-bullpadel-vertex-jr-boy-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Junior"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " HACK JR 26",
+    "price": "€89.99",
+    "imageUrl": "https://www.bullpadel.com/18940-home_default/racket-bullpadel-hack-jr-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/junior/5699-racket-bullpadel-hack-jr-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Junior"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " HACK JR 25",
+    "price": "€64.99",
+    "imageUrl": "https://www.bullpadel.com/15417-home_default/racket-bullpadel-hack-jr-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/junior/4948-racket-bullpadel-hack-jr-25.html",
+    "weight": "335-345g",
+    "shape": "Diamond",
+    "material": "",
+    "series": "Junior"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " VERTEX JR 25",
+    "price": "€64.99",
+    "imageUrl": "https://www.bullpadel.com/16254-home_default/racket-bullpadel-vertex-jr-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/junior/4920-racket-bullpadel-vertex-jr-25.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Junior"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " VERTEX W JR 25",
+    "price": "€64.99",
+    "imageUrl": "https://www.bullpadel.com/16259-home_default/racket-bullpadel-vertex-w-jr-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/junior/4919-racket-bullpadel-vertex-w-jr-25.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Junior"
+  }
+]

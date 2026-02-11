@@ -1,0 +1,68 @@
+[
+  {
+    "brand": "BULLPADEL",
+    "model": " IONIC LIGHT 26",
+    "price": "€149.99",
+    "imageUrl": "https://www.bullpadel.com/18967-home_default/racket-bullpadel-ionic-light-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/next/5693-racket-bullpadel-ionic-light-26.html",
+    "weight": "350-360g",
+    "shape": "Hybrid",
+    "material": "Glaphite",
+    "series": "Next"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " IONIC CONTROL 26",
+    "price": "€179.99",
+    "imageUrl": "https://www.bullpadel.com/18963-home_default/racket-bullpadel-ionic-control-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/next/5692-racket-bullpadel-ionic-control-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Next"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " IONIC POWER 26",
+    "price": "€179.99",
+    "imageUrl": "https://www.bullpadel.com/18973-home_default/racket-bullpadel-ionic-power-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/next/5691-racket-bullpadel-ionic-power-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Next"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " IONIC CONTROL 25",
+    "price": "€134.99",
+    "imageUrl": "https://www.bullpadel.com/16495-home_default/racket-bullpadel-ionic-control-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/next/4931-racket-bullpadel-ionic-control-25.html",
+    "weight": "365-375G",
+    "shape": "Round",
+    "material": "",
+    "series": "Next"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " IONIC POWER 25",
+    "price": "€134.99",
+    "imageUrl": "https://www.bullpadel.com/16502-home_default/racket-bullpadel-ionic-power-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/next/4922-racket-bullpadel-ionic-power-25.html",
+    "weight": "365-375G",
+    "shape": "Diamond",
+    "material": "",
+    "series": "Next"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " IONIC LIGHT 25",
+    "price": "€149.99",
+    "imageUrl": "https://www.bullpadel.com/16498-home_default/racket-bullpadel-ionic-light-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/next/4923-racket-bullpadel-ionic-light-25.html",
+    "weight": "",
+    "shape": "Hybrid",
+    "material": "",
+    "series": "Next"
+  }
+]

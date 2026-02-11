@@ -127,7 +127,9 @@ func ScrapeRacket(url string) {
 }
 
 func main() {
-	//ScrapeRacket("https://www.bullpadel.com/gb/39-proline")
-	//ScrapeRacket("https://www.bullpadel.com/gb/234-ltd-collection")
+	SliceOfSeries := []string{"39-proline", "234-ltd-collection", "258-cloud", "214-next", "216-performance", "215-tour", "62-junior"}
+	for _, series := range SliceOfSeries {
+		ScrapeRacket("https://www.bullpadel.com/gb/" + series)
+	}
 	fmt.Println("Done")
 }

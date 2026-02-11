@@ -1,0 +1,68 @@
+[
+  {
+    "brand": "BULLPADEL",
+    "model": " NEURON 02 CLOUD",
+    "price": "€269.99",
+    "imageUrl": "https://www.bullpadel.com/19944-home_default/racket-bullpadel-neuron-02-cloud.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/cloud/5690-racket-bullpadel-neuron-02-cloud.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Cloud"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " HACK 04 HYB CLOUD",
+    "price": "€269.99",
+    "imageUrl": "https://www.bullpadel.com/18936-home_default/racket-bullpadel-hack-04-hyb-cloud.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/cloud/5738-racket-bullpadel-hack-04-hyb-cloud.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Cloud"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " VERTEX 05 W CLOUD",
+    "price": "€269.99",
+    "imageUrl": "https://www.bullpadel.com/19941-home_default/racket-bullpadel-vertex-05-w-cloud.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/cloud/5739-racket-bullpadel-vertex-05-w-cloud.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Cloud"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " ICON CLOUD 25",
+    "price": "€164.99",
+    "imageUrl": "https://www.bullpadel.com/16459-home_default/racket-bullpadel-icon-cloud-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/cloud/4555-racket-bullpadel-icon-cloud-25.html",
+    "weight": "",
+    "shape": "Diamond",
+    "material": "ElasticFiber",
+    "series": "Cloud"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " NEURON CLOUD 25",
+    "price": "€164.99",
+    "imageUrl": "https://www.bullpadel.com/16450-home_default/racket-bullpadel-neuron-cloud-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/cloud/4556-racket-bullpadel-neuron-cloud-25.html",
+    "weight": "365g",
+    "shape": "Hybrid",
+    "material": "Elastic Fiber",
+    "series": "Cloud"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " PEARL CLOUD 25",
+    "price": "€164.99",
+    "imageUrl": "https://www.bullpadel.com/16441-home_default/racket-bullpadel-pearl-cloud-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/cloud/4557-racket-bullpadel-pearl-cloud-25.html",
+    "weight": "355-365g",
+    "shape": "Diamond",
+    "material": "Elastic Fiber",
+    "series": "Cloud"
+  }
+]

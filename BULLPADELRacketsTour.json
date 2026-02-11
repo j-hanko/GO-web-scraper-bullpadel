@@ -1,0 +1,90 @@
+[
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA GIRL 26",
+    "price": "€59.99",
+    "imageUrl": "https://www.bullpadel.com/18952-home_default/racket-bullpadel-indiga-girl-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/tour/5703-racket-bullpadel-indiga-girl-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Tour"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA BOY 26",
+    "price": "€59.99",
+    "imageUrl": "https://www.bullpadel.com/18943-home_default/racket-bullpadel-indiga-boy-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/junior/5702-racket-bullpadel-indiga-boy-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Tour"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA W 26",
+    "price": "€89.99",
+    "imageUrl": "https://www.bullpadel.com/18960-home_default/racket-bullpadel-indiga-w-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/tour/5698-racket-bullpadel-indiga-w-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Tour"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA CTR 26",
+    "price": "€89.99",
+    "imageUrl": "https://www.bullpadel.com/18948-home_default/racket-bullpadel-indiga-ctr-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/tour/5697-racket-bullpadel-indiga-ctr-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Tour"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA PWR 26",
+    "price": "€89.99",
+    "imageUrl": "https://www.bullpadel.com/18956-home_default/racket-bullpadel-indiga-pwr-26.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/tour/5696-racket-bullpadel-indiga-pwr-26.html",
+    "weight": "",
+    "shape": "",
+    "material": "",
+    "series": "Tour"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA CTR 25",
+    "price": "€69.99",
+    "imageUrl": "https://www.bullpadel.com/15420-home_default/racket-bullpadel-indiga-ctr-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/tour/4946-racket-bullpadel-indiga-ctr-25.html",
+    "weight": "360-370g",
+    "shape": "Round",
+    "material": "",
+    "series": "Tour"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA PWR 25",
+    "price": "€69.99",
+    "imageUrl": "https://www.bullpadel.com/15432-home_default/racket-bullpadel-indiga-pwr-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/tour/4933-racket-bullpadel-indiga-pwr-25.html",
+    "weight": "360-370g",
+    "shape": "Diamond",
+    "material": "",
+    "series": "Tour"
+  },
+  {
+    "brand": "BULLPADEL",
+    "model": " INDIGA W 25",
+    "price": "€79.99",
+    "imageUrl": "https://www.bullpadel.com/15429-home_default/racket-bullpadel-indiga-w-25.jpg",
+    "racketPage": "https://www.bullpadel.com/gb/tour/4932-racket-bullpadel-indiga-w-25.html",
+    "weight": "",
+    "shape": "Round",
+    "material": "",
+    "series": "Tour"
+  }
+]
